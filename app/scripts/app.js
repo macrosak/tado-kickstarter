@@ -8,8 +8,8 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'app/views/kickstarter.html',
+        controller: 'KickstarterController'
       })
       .otherwise({
         redirectTo: '/'
