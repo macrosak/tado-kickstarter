@@ -1,2 +1,17 @@
-Backers: {{kickstarter.project.backers_count}}
-Pledged: {{kickstarter.project.pledged}} USD
+<div class="pledged">
+
+  <div class="value">
+    <span class="header">Pledged:</span>
+    <span class="number">{{kickstarter.project.pledged | rounded }}</span>
+    <span class="currency">
+      USD
+      <div class="backers-container">
+        <span class="by">by </span>
+        <span class="value"><span class="number">{{kickstarter.project.backers_count}}</span></span>
+        <span class="backers"> backers</span>
+      </div>
+    </span>
+
+
+  </div>
+</div>

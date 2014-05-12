@@ -1,0 +1,35 @@
+@font-face {
+   font-family: 'Futura-latin-light';
+   src: url('light/futuralightlatin1.eot');
+   src:
+      /*url('light/futuralightlatin1.eot?#iefix') format('embedded-opentype'),*/
+        url('light/futuralightlatin1.woff') format('woff'),
+        url('light/futuralightlatin1.ttf') format('truetype');
+        /*url('light/futuralightlatin1.svg#futuralightlatin1') format('svg');*/
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Futura-latin';
+   src: url('medium/futuramediumlatin1.eot');
+   src:
+      /*url('medium/futuramediumlatin1.eot?#iefix') format('embedded-opentype'),*/
+        url('medium/futuramediumlatin1.woff') format('woff'),
+        url('medium/futuramediumlatin1.ttf') format('truetype');
+        /*url('medium/futuramediumlatin1.svg#futuramediumlatin1') format('svg');*/
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Futura-latin';
+   src: url('bold/futuraboldlatin1.eot');
+   src:
+      /*url('bold/futuraboldlatin1.eot?#iefix') format('embedded-opentype'),*/
+        url('bold/futuraboldlatin1.woff') format('woff'),
+        url('bold/futuraboldlatin1.ttf') format('truetype');
+        /*url('bold/futuraboldlatin1.svg#futuraboldlatin1') format('svg');*/
+   font-weight: bold;
+   font-style: normal;
+}

@@ -19,6 +19,8 @@
   <!-- endbuild -->
   <!-- build:css({.tmp,app}) styles/main.css -->
   <link rel="stylesheet" href="app/styles/main.css">
+  <link rel="stylesheet" href="app/styles/avenir/avenir.css">
+  <link rel="stylesheet" href="app/styles/futura/futura.css">
   <!-- endbuild -->
 </head>
 <body ng-app="tadoKickstarterApp">
@@ -29,6 +31,8 @@
 
 <!-- Add your site or application content here -->
 <div class="container" ng-view=""></div>
+
+<div class="appImage"></div>
 
 <!--[if lt IE 9]>
 <script src="app/bower_components/es5-shim/es5-shim.js"></script>
@@ -47,6 +51,7 @@
 <script src="app/scripts/app.js"></script>
 <script src="app/scripts/controllers/KickstarterController.js"></script>
 <script src="app/scripts/services/KickstarterService.js"></script>
+<script src="app/scripts/filters/Rounded.js"></script>
 <!-- endbuild -->
 </body>
 </html>
