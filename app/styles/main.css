@@ -43,6 +43,7 @@ body {
   font-size: 80px;
   position: relative;
   display: inline-block;
+  padding-left: 20px;
 }
 
 .pledged .value .number{
